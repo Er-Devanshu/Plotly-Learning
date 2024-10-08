@@ -1,8 +1,9 @@
+<div align="center">
+
 # Gemma Open Models
 
-<p align="center">
-  <img src="https://www.analyticsvidhya.com/blog/wp-content/uploads/2024/02/gemma-llm-1.png" alt="Gemma Open Models Logo" width="200"/>
-</p>
+  <img src="https://www.unite.ai/wp-content/uploads/2024/03/Gemma-2-Image.png" alt="Gemma Open Models Logo" width="200"/>
+</div>
 
 ---
 
@@ -10,20 +11,34 @@
 
 **Gemma 2** is an advanced generative AI model developed by Google DeepMind, representing the next step in the evolution of the **Gemma** model family. It provides high-performance capabilities across various tasks including text generation, summarization, reasoning, and code generation. With a focus on flexibility, scalability, and performance, Gemma 2 allows developers to fine-tune and deploy models tailored to their specific needs.
 
-### Key Features:
+### Key Features
 - **Open Source**: Gemma 2 provides full access to its model weights and architecture, encouraging collaboration and customization.
 - **Multi-Modal Support**: The model is designed to handle various forms of input, including text, images, and code.
 - **Framework Compatibility**: Supports popular frameworks such as **PyTorch**, **Keras**, and **JAX**.
 
 ---
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Key Advantages](#key-advantages)
+- [Disadvantages](#disadvantages)
+- [Usage](#usage)
+- [Use Cases](#use-cases)
+- [Benchmarks for Pre-Trained Models](#benchmarks-for-pre-trained-models)
+- [Why Gemma 2 Over Other Libraries?](#why-gemma-2-over-other-libraries)
+- [Conclusion](#conclusion)
+  
+---
+
 ## Architecture
 
 Gemma 2's architecture is designed for efficiency and adaptability. The model is built upon a scalable transformer architecture, which allows for both small and large-scale implementations, catering to different computational resources. The architecture promotes fast training and inference speeds, enabling deployment in a variety of environments from cloud infrastructures to edge devices.
 
-### Components:
+### Components
 - **Pre-Trained Models**: Gemma 2 features multiple variants optimized for specific tasks and performance requirements.
-- **Fine-Tuning Techniques**: The model supports various fine-tuning methods, including techniques like Low-Rank Adaptation (LoRA) for effective resource utilization.
+- **Fine-tuning Techniques**: The model supports various fine-tuning methods, including techniques like Low-Rank Adaptation (LoRA) for effective resource utilization.
 
 ---
 
@@ -66,10 +81,28 @@ Gemma 2's capabilities can be harnessed across various industries:
 
 ## Benchmarks for Pre-Trained Models
 
-The performance benchmarks for Gemma 2 demonstrate its effectiveness compared to other methodologies. These benchmarks highlight its strengths in various tasks, such as text generation and summarization. For detailed performance metrics, refer to the [Gemma Technical Report](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf).
+The performance benchmarks for Gemma 2 demonstrate its effectiveness compared to other methodologies and highlight its strengths in various tasks, such as text generation and summarization. For detailed performance metrics, refer to the [Gemma Technical Report](https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf).
 
 ---
 
 ## Why Gemma 2 Over Other Libraries?
 
-| Feature/Criteria          | **Gemma 2*
+<div align="center">
+
+| Feature/Criteria          | **Gemma 2**                           | **OpenAI GPT-3**                   | **BERT**                          | **T5**                            | **LLaMA**                         |
+|---------------------------|---------------------------------------|------------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
+| **Open-source**            | Yes                                   | No                                 | Yes                               | Yes                               | Yes                               |
+| **Fine-tuning Support**    | Extensive                             | Limited                            | Available                         | Available                         | Available                         |
+| **Framework Compatibility**| Keras, PyTorch, JAX                   | OpenAI API only                    | TensorFlow, PyTorch               | TensorFlow, Hugging Face          | Hugging Face                      |
+| **Parameter Sizes**        | 2B, 7B, 27B                           | 175B                               | 110M to 340M                      | 220M to 11B                       | 7B to 65B                         |
+| **Deployment Options**     | On-device, Cloud, Mobile              | Cloud only                         | Cloud, Server                     | Cloud, Server                     | Cloud, Server                     |
+| **Multi-Modal Support**    | Yes (text, images, coding)            | Primarily text                     | Primarily NLP                     | Primarily NLP                     | Text and conversational AI        |
+| **Task Specialization**    | General-purpose, flexible             | Primarily text generation          | NLP, QA                           | Text summarization, translation   | Text generation, summarization    |
+
+</div>
+
+---
+
+## Conclusion
+
+**Gemma 2** is a leading solution for developers looking to integrate generative AI capabilities into their applications. Its open-source nature and robust architecture and ethical guidelines make it a valuable tool for modern AI development.
